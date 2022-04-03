@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <title>Mathilde Vedel - Peintre décorateur</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=PT+Serif:400,400i,700|Montserrat:100,200,300,300i,400,500,600,700,800,900" rel="stylesheet" type="text/css">
+</head>
+<body>
+<header>
+    <nav>
+        <ul>
+            <li><a href="#intro">Qui suis-je ?</a></li>
+            <li><a href="#gallery">Réalisations</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <section id="intro">
+        <div class="intro-title">
+            <h1>Mathilde Vedel</h1><br>
+            <h2>Peintre décorateur</h2>
+        </div>
+    </section>
+    <section id="gallery">
+        <div class="row">
+            <div class="column">
+                <img src="img/decors/Grisaille-min.jpg">
+                <img src="img/decors/Affiche SNCF-min.jpg">
+                <img src="img/decors/IMG_20210623_141043-min.jpg">
+                <img src="img/decors/IMG_20210623_141312-min.jpg">
+            </div>
+            <div class="column">
+                <img src="img/decors/Paysage avec drapé 1-min.jpg">
+                <img src="img/decors/Rouille 3-min.jpg">
+                <img src="img/decors/carreaux de ciment-min.jpg">
+                <img src="img/decors/chaux 2-min.jpg">
+
+            </div>
+            <div class="column">
+                <img src="img/decors/drapé-min.jpg">
+                <img src="img/decors/Ornementation-min.jpg">
+                <img src="img/decors/Panneau Rouille-min.jpg">
+                <img src="img/decors/Panneau Rouille-min.jpg">
+            </div>
+            <div class="column">
+                <img src="img/decors/colonne vert de mer2-min.jpg">
+                <img src="img/decors/decors égyptien -min.jpg">
+                <img src="img/decors/IMG_20210623_142425-min.jpg">
+                <img src="img/chantier/enduit/IMG_20220314_171836-min.jpg">
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+            <form action="https://formsubmit.co/your@email.com/boris.raimbault.37@gmail.com">
+                <label for="fname">Prénom</label>
+                <input type="text" id="fname" name="firstname" placeholder="Prénom">
+                <label for="lname">Nom</label>
+                <input type="text" id="lname" name="lastname" placeholder="Nom">
+                <label for="subject">Sujet</label>
+                <textarea id="subject" name="subject" placeholder="Message" ></textarea>
+                <input type="submit" value="Submit">
+            </form>
+    </section>
+</main>
+
+<footer></footer>
+</body>
+<script>
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth'
+        });
+    });
+});
+
+</script>
+</html>
