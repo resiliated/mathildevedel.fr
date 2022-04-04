@@ -92,7 +92,7 @@ p {
 }
 
 a {
-  color: #e44c65;
+  /*color: #e44c65;*/
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
@@ -455,7 +455,7 @@ a:hover, a:active, a:focus {
 
 
 /*---------------------------------------
-    Galllery section              
+    Gallery section
 -----------------------------------------*/
 
 #gallery {
@@ -665,6 +665,33 @@ footer {
 
 }
 
+/*
+My customizations
+*/
+.contact-container{
+    padding: 20px 20px;
+    border-top: 1px solid white;
+}
+.contact-container .contact-icon{
+    width: auto;
+    margin-right: 10px;
+}
 
+.contact-container span{
+    font-size: 18px;
+}
 
+.nav-link-gallery{
+    height: 24px;
+    width: 24px;
+    margin-left: 8px;
+    mask: url('../images/image-gallery.png');
+    -webkit-mask: url('../images/image-gallery.png');
+    background: #777;
+    background-repeat: no-repeat;
+    transition: background-color 0.5s ease;
+}
 
+.nav-link-gallery:hover{
+    background: #304352;
+}

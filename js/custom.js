@@ -33,6 +33,7 @@ $(document).ready(function() {
   $(function() {
     $('body').vegas({
         slides: [
+            { src: 'images/decors/chaux-2-min.jpg' },
             { src: 'images/IMG_20210623_141043-min.jpg' }
            /* { src: 'images/IMG_20210623_141043-min.jpg' },
             { src: 'images/IMG_20210623_141043-min.jpg' }*/
