@@ -31,17 +31,19 @@ $(document).ready(function() {
  /* Home Slideshow Vegas
   -----------------------------------------------*/
   $(function() {
-    $('body').vegas({
-        slides: [
-            { src: 'images/decors/chaux-2-min.jpg' },
-            { src: 'images/IMG_20210623_141043-min.jpg' }
-           /* { src: 'images/IMG_20210623_141043-min.jpg' },
-            { src: 'images/IMG_20210623_141043-min.jpg' }*/
-        ],
-        timer: false,
-        transition: [ 'zoomIn', ],
-        animation: ['kenburns']
-    });
+    if(window.location.href.indexOf("gallery") == -1){
+        $('body').vegas({
+            slides: [
+                { src: 'images/decors/chaux-2-min.jpg' },
+                { src: 'images/decors/IMG_20210623_141043-min.jpg' }
+               /* { src: 'images/IMG_20210623_141043-min.jpg' },
+                { src: 'images/IMG_20210623_141043-min.jpg' }*/
+            ],
+            timer: false,
+            transition: [ 'zoomIn', ],
+            animation: ['kenburns']
+        });
+    }
   });
 
 
