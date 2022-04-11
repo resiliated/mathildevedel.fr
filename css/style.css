@@ -389,7 +389,7 @@ a:hover, a:active, a:focus {
 
 #about .team-thumb {
   width: 100%;
-  height: 400px;
+  height: 500px;
   margin: 32px 0;
   text-align: center;
   background: #ffffff;
@@ -430,7 +430,7 @@ a:hover, a:active, a:focus {
 }
 
 #about .team-thumb .description {
-  font-size: 18px;
+  font-size: 12px;
   width: 80%;
   margin: 0 auto;
   opacity: 0;
@@ -694,4 +694,8 @@ My customizations
 
 .nav-link-gallery:hover{
     background: #304352;
+}
+
+.cs-style-4 figure img{
+   /* height: 750px;*/
 }

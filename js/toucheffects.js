@@ -68,9 +68,9 @@
 		}
 
 		[].slice.call( document.querySelectorAll( 'ul.grid > li > figure' ) ).forEach( function( el, i ) {
-			el.querySelector( 'figcaption > a' ).addEventListener( 'touchstart', function(e) {
+			/*el.querySelector( 'figcaption > a' ).addEventListener( 'touchstart', function(e) {
 				e.stopPropagation();
-			}, false );
+			}, false );*/
 			el.addEventListener( 'touchstart', function(e) {
 				classie.toggle( this, 'cs-hover' );
 			}, false );
