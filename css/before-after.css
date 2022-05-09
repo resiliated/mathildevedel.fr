@@ -1,0 +1,81 @@
+.container-ab {
+	 position: relative;
+	 /*width: 900px;*/
+	 height: 600px;
+	 border: 2px solid white;
+}
+ .container-ab .img {
+	 position: absolute;
+	 top: 0;
+	 left: 0;
+	 width: 100%;
+	 height: 100%;
+	 background-size: 900px 100%;
+}
+ .container-ab .background-img {
+	 background-image: url('../images/chantier/portes placard/IMG_20220113_154925.jpg');
+}
+ .container-ab .foreground-img {
+	 width: 50%;
+	 background-image: url('../images/chantier/portes placard/IMG_20220110_092949.jpg');
+}
+ .container-ab .slider {
+	 position: absolute;
+	 -webkit-appearance: none;
+	 appearance: none;
+	 width: 100%;
+	 height: 100%;
+	 background: rgba(242, 242, 242, .3);
+	 outline: none;
+	 margin: 0;
+	 transition: all 0.2s;
+	 display: flex;
+	 justify-content: center;
+	 align-items: center;
+}
+ .container-ab .slider:hover {
+	 background: rgba(242, 242, 242, .1);
+}
+ .container-ab .slider::-webkit-slider-thumb {
+	 -webkit-appearance: none;
+	 appearance: none;
+	 width: 6px;
+	 height: 600px;
+	 background: white;
+	 cursor: pointer;
+}
+ .container-ab .slider::-moz-range-thumb {
+	 width: 6px;
+	 height: 600px;
+	 background: white;
+	 cursor: pointer;
+}
+ .container-ab .slider-button {
+	 pointer-events: none;
+	 position: absolute;
+	 width: 30px;
+	 height: 30px;
+	 border-radius: 50%;
+	 background-color: white;
+	 left: calc(50% - 18px);
+	 top: calc(50% - 18px);
+	 display: flex;
+	 justify-content: center;
+	 align-items: center;
+}
+ .container-ab .slider-button:after {
+	 content: '';
+	 padding: 3px;
+	 display: inline-block;
+	 border: solid #5d5d5d;
+	 border-width: 0 2px 2px 0;
+	 transform: rotate(-45deg);
+}
+ .container-ab .slider-button:before {
+	 content: '';
+	 padding: 3px;
+	 display: inline-block;
+	 border: solid #5d5d5d;
+	 border-width: 0 2px 2px 0;
+	 transform: rotate(135deg);
+}
