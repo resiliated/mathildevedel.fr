@@ -484,7 +484,29 @@ a:hover, a:active, a:focus {
   width: 100%;
 }
 
+/*---------------------------------------
+    Renovation section
+-----------------------------------------*/
 
+#renovation{
+    width: 100%;
+    background: white;
+}
+
+.container-ab{
+    margin: auto;
+}
+@media only screen and (max-device-width: 640px) {
+    #renovation{
+        display: none;
+    }
+}
+
+@media only screen and (max-device-width: 768px) {
+    #renovation{
+        display: none;
+    }
+}
 
 /*---------------------------------------
     Contact section              
