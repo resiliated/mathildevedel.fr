@@ -721,3 +721,8 @@ My customizations
 .cs-style-4 figure img{
    height: 750px;
 }
+
+.fixture{
+    width: fit-content !important;
+    max-width: initial !important;
+}
