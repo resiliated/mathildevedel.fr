@@ -730,3 +730,11 @@ My customizations
 .insta-home{
     font-size: xx-large;
 }
+
+.cropped {
+    overflow: hidden;
+}
+
+.cropped img {
+    margin: 0px 0px 0px -180px;
+}
