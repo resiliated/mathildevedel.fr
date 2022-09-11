@@ -13,5 +13,5 @@ docker build -t mathildevedel .
 
 Run docker image:
 ```bash
-docker run --name mathildevedel-container -p 80:80 mathildevedel
+docker run --name mathildevedel-container -d -p 80:80 mathildevedel
 ```
